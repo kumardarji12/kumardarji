@@ -1,0 +1,218 @@
+body{
+    		margin: 0;
+    	}
+     .header
+     {
+     	    height: 100px;
+			width: 100%;
+			background:black ;
+			display: flex;
+         position: fixed;
+         z-index: 2;
+         
+     }
+
+     .logo
+     {
+			width: 20%;
+			text-align: center;
+     }
+     .logo img
+     {
+     	margin-top: 10px;
+     	width: 80px;
+     }
+
+     .menu
+     {
+     	    height: 100px;
+			width: 90%;
+         
+     }
+     
+     .menu .nav li
+     {
+     	display: inline-block;
+     	padding-top: 25px;
+      
+     }
+     
+     .menu .nav li a
+     {
+     	color: #dac669;
+     	text-decoration: none;
+     	padding: 20px;
+      transition: all 1s;
+     }
+     
+     
+     
+     .menu .nav li a:hover
+     {
+        background: white;
+        color: black;
+        
+     }
+     .banner{
+        width: 100%;
+        float: left;
+        background: url('./img/banner1.jpg');
+        background-size: cover;
+        text-align: center;
+        padding: 100px 0 150px;
+
+     }
+     .banner .title
+     {
+        font-size: 60px;
+        color: #dac669;
+        text-shadow: 0px 0px 10px #000;
+        background: rgba(275, 275, 275, 0.5);
+     }
+     .banner h3
+     {
+        color: #dac669;
+        text-shadow: 0px 0px 3px #000;
+        font-size: 26px;
+        margin-top: 150px;
+     }
+     .banner .btn
+     {
+        font-size: 16px;
+        margin-top: 70px;
+        padding: 10px 40px;
+        background: #dac669;
+        border-radius: 15px;
+        border: 2px solid #000;
+        color: #000;
+        text-decoration: none;
+        transition: all 1s;
+     }
+     .banner .btn:hover
+     {
+        background: #000;
+        color: #dac669;
+        border-color: #dac669;
+     }
+     .gallery
+     {
+        width: 100%;
+        
+        padding: 50px 0;
+        text-align: center;
+     }
+     .gallery .title
+     {
+        font-size: 40px;
+        text-align: center;
+        color: #dac669;
+     }
+     .gallery hr
+     {
+        height: 5px;
+        background: #dac669;
+        border: none;
+        margin-bottom: 30px;
+     }
+     .gallery img
+     {
+        width: 25%;
+        margin: 35px;
+        transition: all 0.5s;
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+     }
+     .gallery img:hover
+     {
+        box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.5);
+        transform: translateY(-10px);
+     }
+
+.about
+{
+   width: 100%;
+   float: left;
+   background: #dac669;
+   padding: 50px 0;
+}
+.about .title
+{
+   text-align: center;
+   font-size: 40px
+}
+.about .left,
+.about .right
+{
+   width: 45%;
+   float: left;
+   padding: 20px;
+}
+
+
+.about p
+{
+   text-align: justify;
+}
+.about .right .bottom
+{
+   background: #000;
+}
+.about .right .bottom li
+{
+   display: inline-block;
+   padding: 20px;
+   color: #fff;
+}
+
+.footer
+{
+   width: 100%;
+   float: left;
+   background: #000;
+   padding: 50px 0;
+   text-align: center;
+   color: #fff;
+}
+.footer .title
+{
+   color: #dac669;
+   font-size: 30px;
+
+}
+.footer .mobile a
+{
+   color: #dac669;
+   text-decoration: none;
+   font-size: 16px;
+   letter-spacing: 2px;
+   margin-bottom: 30px;
+}
+.footer .social li
+{
+   margin-top: 30px;
+   list-style: none;
+   display: inline-block;
+}
+.footer .social li a
+{
+   margin: 10px;
+   padding: 20px;
+   border-radius: 50%;
+   border: 2px solid #dac669;
+   color: #dac669;
+   transition: all 0.5s;
+}
+.footer .social li a:hover
+{
+   color: #000;
+   background: #dac669;
+}
+.copyright
+{
+   width: 100%;
+   float: left;
+   text-align: center;
+   background: #dac669;
+   color: #000;
+   padding: 30px 0;
+   margin: 0;
+}
