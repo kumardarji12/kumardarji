@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.bkg
+		{
+			height: 600px;
+			width: 100%;
+			background: greenyellow;
+			padding: 10px;
+			
+		}
+		.ball
+		{
+			height: 50px;
+			width: 50px;
+			background: darkkhaki;
+			border-radius: 50px;
+			margin: 20px 0;
+			animation: animate 2s infinite;
+		}
+		.ball1
+		{
+			height: 50px;
+			width: 50px;
+			background: darkkhaki;
+			border-radius: 50px;
+			margin: 40px 0;
+			animation: animate1 2s infinite;
+		}
+		.ball2
+		{
+			height: 50px;
+			width: 50px;
+			background: darkkhaki;
+			border-radius: 50px;
+			margin:40px 0;
+			animation: animate2 4s infinite;
+		}
+		.ball3
+		{
+			height: 50px;
+			width: 50px;
+			background: darkkhaki;
+			border-radius: 50px;		
+			margin: 40px 0;
+			animation: animate3 4s infinite;
+		}
+		.ball4
+		{
+			height: 50px;
+			width: 50px;
+			background: darkkhaki;
+			border-radius: 50px;
+			margin: 40px 0;
+			animation: animate4 2s infinite;
+		}
+		.ball5
+		{
+			height: 50px;
+			width: 50px;
+			background: darkkhaki;
+			border-radius: 50px;
+			margin: 40px 0;
+			animation: animate5 2s infinite;
+		}
+		@keyframes animate
+		{
+			0%{background: red;}
+			100%{background: purple;transform: translate(800px,0);}
+		}
+		@keyframes animate1
+		{
+			0%{background: red;}
+			100%{background: cadetblue;transform: translate(500px,300px);}
+			
+		}
+		@keyframes animate2
+		{
+			0%{background: red;}
+			10%{background: purple;transform: translate(100px,-100px);}
+			20%{background: black; transform: translate(200px,20px);}
+			30%{background: coral; transform: translate(300px,-100px);}
+			40%{background: skyblue; transform: translate(400px,20px);}
+			50%{background: black; transform: translate(500px,-100px);}
+			60%{background: navajowhite; transform: translate(600px,20px);}
+			70%{background: darkolivegreen;transform: translate(700px,-100px);}
+			80%{background: graan; transform: translate(800px,20px);}
+			90%{background: powderblue; transform: translate(900px,-100px);}
+			100%{background: skyblue;transform: translate(1000px,20px);}
+		}
+		@keyframes animate3
+		{
+			0%{background: red;}
+			100%{background: darkgoldenrod;transform: translate(0,300px);}
+			
+		}
+		@keyframes animate4
+		{
+			0%{background: red;}
+			100%{background: darkgray;transform: translate(0,-300px);}
+			
+		}
+		@keyframes animate5
+		{
+			0%{background: red;}
+			100%{background: white;transform: translate(300px,-400px);}
+			
+		}
+		.col1:hover
+		{
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<div class="bkg">
+		<div class="ball col1"></div>
+		<div class="ball1 col1"></div>
+		<div class="ball2 col1"></div>
+		<div class="ball3 col1"></div>
+		<div class="ball4 col1"></div>
+		<div class="ball5 col1"></div>
+	</div>
+</body>
+</html>
