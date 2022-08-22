@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		*{box-sizing: border-box; margin: 0; padding: 0;}
+		.kusina
+		{
+			height: 550px;
+			width: 100%;
+			display: flex;
+			position: absolute;
+		}
+		.kusina .left
+		{
+			height: 550px;
+			width: 50%;
+		}
+		.kusina .right
+		{
+			height: 550px;
+			width: 50%;
+			background: url(D:/Website/img/tablesetting3.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+		.kusina .right .header ul
+		{
+			margin: 30px;
+		}
+		.kusina .right .header li
+		{
+			display: inline-block;
+			padding: 2px;
+		}
+		.kusina .right .header a
+		{
+			font-size: 20px;
+			text-decoration: none;
+			color: white;
+			padding: 10px;
+		}
+	
+		.kusina .right .header a:hover
+		{
+			color: black;
+		}
+		.kusina .left .header
+		{
+			font-size: 26px;
+			padding-top: 30px;
+			padding-left: 60px;
+		}
+		.kusina .left .header p
+		{
+			font-size: 40px;
+			margin-bottom: 10px;
+		}
+		.kusina .left .pg
+		{
+			padding: 30px;
+			padding-left: 60px;
+			font-size: 18px;
+			line-height: 25px;
+		}
+		.kusina .left .image
+		{
+			height: 180px;
+			display: flex;
+		}
+		.kusina .left .image .im1
+		{
+			width: 33.33%;
+		}
+		.kusina .left .image .im1 .round
+		{
+			height: 100px;
+			width: 100px;
+			background: url(https://preview.colorlib.com/theme/kusina/images/xbreakfast-1.jpg.pagespeed.ic.gqikzjjE5l.webp);
+			background-size: cover;
+			margin: 10px auto;
+			border-radius: 50px;
+			opacity: .8;
+			transition: .9s;
+		}
+		.kusina .left .image .im1:hover .round
+		{
+			opacity: 1;
+		}
+		.kusina .left .image .im1 h1
+		{
+			padding: 0px 20px;
+			font-weight:200 ;
+			font-size: 20px;
+			opacity: .3;
+			transition: .9s;
+		}
+		.kusina .left .image .im1:hover h1
+		{
+			opacity: 1;
+		}
+		.kusina .left .image .im1 h2
+		{
+			text-align: center;
+			padding: 0px 20px;
+			font-weight:200 ;
+			font-size: 20px;
+			opacity: .3;
+			transition: .9s;
+		}
+		.kusina .left .image .im1:hover h2
+		{
+			opacity: 1;
+		}
+		.kusina .left .image .im2
+		{
+			width: 33.33%;
+		}
+		.kusina .left .image .im2 .round1
+		{
+			height: 100px;
+			width: 100px;
+			background: url(https://preview.colorlib.com/theme/kusina/images/xdinner-2.jpg.pagespeed.ic.Zhcy2e7KUf.webp);
+			background-size: cover;
+			margin: 10px auto;
+			border-radius: 50px;
+			opacity: .8;
+			transition: .9s;
+		}
+		.kusina .left .image .im2:hover .round1
+		{
+			opacity: 1;
+		}
+		.kusina .left .image .im2 h1
+		{
+			text-align: center;
+			font-weight:200 ;
+			font-size: 20px;
+			opacity: .3;
+			transition: .9s;
+		}
+		.kusina .left .image .im2:hover h1
+		{
+			opacity: 1;
+		}
+		.kusina .left .image .im2 h2
+		{
+			text-align: center;
+			padding: 0px 20px;
+			font-weight:200 ;
+			font-size: 20px;
+			opacity: .3;
+			transition: .9s;
+		}
+		.kusina .left .image .im2:hover h2
+		{
+			opacity: 1;
+		}
+		.kusina .left .image .im3
+		{
+			width: 33.33%;
+		}
+		.kusina .left .image .im3 .round2
+		{
+			height: 100px;
+			width: 100px;
+			background: url(https://preview.colorlib.com/theme/kusina/images/xdessert-1.jpg.pagespeed.ic.6RBgL-5Wt_.webp);
+			background-size: cover;
+			margin: 10px auto;
+			border-radius: 50px;
+			opacity: .8;
+			transition: .9s;
+		}
+		.kusina .left .image .im3:hover .round2
+		{
+			opacity: 1;
+		}
+		.kusina .left .image .im3 h1
+		{
+			text-align: center;
+			font-weight:200 ;
+			font-size: 20px;
+			opacity: .3;
+			transition: .9s;
+		}
+		.kusina .left .image .im3:hover h1
+		{
+			opacity: 1;
+		}
+		.kusina .left .image .im3 h2
+		{
+			text-align: center;
+			padding: 0px 20px;
+			font-weight:200 ;
+			font-size: 20px;
+			opacity: .3;
+			transition: .9s;
+		}
+		.kusina .left .image .im3:hover h2
+		{
+			opacity: 1;
+		}
+		.kusina .left .button
+		{
+			height: 50px;
+			width: 130px;
+			color: white;
+			background: red;
+			margin-top: 20px;
+			margin-left: 30px;
+			font-size: 20px;
+			text-align: center;
+			padding: 12px 0;
+			border: 1px soild red;
+			transition: 1s;
+		}
+		.kusina .left .button:hover
+		{
+			background: white;
+			color: red;
+			border: 1px solid red;
+		}
+		/*.kusina .right .sec-right*/
+		{
+			height: 550px;
+			width: 100%;
+			background: yellow;
+			position: relative;
+		} 
+	</style>
+</head>
+<body>
+	
+	<div class="kusina">
+		<div class="left">
+			<div class="header"><b>kusina</b>
+				<p><b>We love</b></p>
+				<p><b>Delicious Food</b></p>
+			</div>
+				<div class="pg">A Samll River named Duden flows by thaeir place and supplies it with the necessary regelialia. it is a paradisematic country,</div>
+				<div class="image">
+					<div class="im1">
+						<div class="round"></div>
+						<h1>Australian Original</h1>
+						<h2>Beef</h2>
+					</div>
+					<div class="im2">
+						<div class="round1"></div>
+						<h1>Australian Original</h1>
+						<h2>Beef</h2>
+					</div>
+					<div class="im3">
+						<div class="round2"></div>
+						<h1>Australian Original</h1>
+						<h2>Beef</h2>
+					</div>
+				</div>
+				<div class="button">Book a Table</div>
+		</div>
+		<div class="right">
+			<div class="header">
+				<ul>
+					<li><a href=""><span style="color: red;">Home</span></a></li>
+					<li><a href="">About</a></li>
+					<li><a href="">Specialties</a></li>
+					<li><a href="">Reservation</a></li>
+					<li><a href="">Stories</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			</div>
+			<div class="sec-right"></div>
+		</div>
+	</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
