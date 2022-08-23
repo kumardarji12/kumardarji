@@ -1,0 +1,406 @@
+
+*{box-sizing: border-box; margin: 0; padding: 0;}
+
+		::selection
+		{
+			background: rgba(7, 119, 101, 0.15);
+		}
+		.nevbar
+		{
+			height: 100px;
+			width: 100%;  
+	  	    background: linear-gradient(90deg, #071c4d, #002d97);
+			display: flex;
+			/*position: fixed;*/
+		}
+		.nevbar .logo
+		{
+			height: 100px;
+			width: 15%;
+			padding: 28px 0;
+			padding-left: 70px;
+		}
+		.nevbar .menu
+		{
+			height: 100px;
+			width: 55%;
+		}
+		.nevbar .menu ul
+		{
+			margin: 25px 0px;
+			margin-left: 130px;
+		}
+		.nevbar .menu li
+		{
+			display: inline-block;
+			margin: 5px;
+			padding: 10px;
+		}
+		.nevbar .menu li a
+		{
+			font-size: 18px;
+			font-family: "Poppins", sans-serif;
+			text-decoration: none;
+			color: white;
+			transition: all 0.5s;
+		}
+		.nevbar .menu li a:hover
+		{
+			color: blue;
+		}
+		.nevbar .login
+		{
+			height: 100px;
+			width: 30%;
+		}
+		.nevbar	.login ul
+		{
+			padding: 40px 0px;
+			padding-left: 60px;
+
+		}
+		.nevbar .login li
+		{
+			display: inline-block;
+		}
+		.nevbar .login a
+		{
+			font-size: 18px;
+			font-family: "Poppins", sans-serif;
+			padding: 12px;
+			margin: 10px;
+			color: white;
+			text-decoration: none;
+			transition: all 0.5s;
+		}
+		.nevbar .login a:hover
+		{
+			color: blue;
+		}
+		.nevbar .login .box
+		{
+			background: blueviolet;
+			padding: 20px 27px;
+			border-radius: 10px;
+			transition: all .5s;
+		}
+		.nevbar .login .box:hover
+		{
+			background: blue;
+			color: white;
+		}
+		.main
+		{
+			height: 630px;
+			width: 100%;  
+	  	    background: linear-gradient(90deg, #071c4d, #002d97);
+	  	    display: flex;
+		}
+		.main .path
+		{
+			height: 900px;
+			width: 50%;
+			/*background: black;*/
+		}
+		.main .path .divisan
+		{
+			height: 400px;
+			width: 100%;
+			/*background: black;*/
+			margin: 70px 0px;
+			padding-left:70px;
+		}
+		.main .path .divisan h1
+		{
+			font-family: "Poppins", sans-serif;
+			line-height: 1.2;
+			font-size: 45px;
+			color: #fff;
+			font-weight: 900;
+		}
+		.main .path .divisan h2
+		{
+			font-family: "Poppins", sans-serif;
+			color: #d9d9d9;
+			font-size: 21px;
+			margin-top: 15px;
+			font-weight: 200;
+			line-height: 1.8;
+		}
+		.main .path .divisan .button
+		{
+			height: 60px;
+			width: 100%;
+			margin-top: 35px;
+			padding: 20px 0;
+		}
+		.main .path .divisan .button a
+		{
+			text-decoration: none;
+			color: #fff;
+			font-size: 15px;
+			font-weight: 600;
+			font-family: "Poppins", sans-serif;
+			font-weight: 600;
+		}
+		.main .path .divisan .button .hvrbtn
+		{
+			padding: 20px 32px;
+			background: blueviolet;
+			border-radius: 10px;
+			transition: all .5s;
+		}
+		.main .path .divisan .button .hvrbtn:hover
+		{
+			background: blue;
+			color: white;
+		}
+		.main .path .divisan .button .hvrbtn1
+		{
+			color: #b3b3b9;
+			transition: all .5s;
+			margin-left: 10px;
+		}
+		.main .path .divisan .button .hvrbtn1 i
+		{
+			font-size: 15px;
+			border: 2px solid white;
+			border-radius: 50%;
+			padding: 15px;
+			padding-left: 16px;
+			margin: 0px 10px;
+			transition: all .5s;
+		}
+		.main .path .divisan .button .hvrbtn1 i:hover
+		{
+			background: white;
+			color: blue;
+		}
+		.main .path .divisan .button .hvrbtn1:hover
+		{
+			color: white;
+		}
+		.main .path .menubar
+		{
+			height: 100px;
+			width: 100%;
+			/*background: skyblue;*/
+			margin-top: 50px;
+		}
+		.main .path .menubar h1
+		{
+			font-size: 20px;
+			color: #d9d9d9;
+			font-family: "Poppins", sans-serif;
+			font-weight: 600;
+			padding-top: 10px;
+
+		}
+		.main .path .menubar img
+		{
+			margin-top: 10px;
+		}
+		.main .path1
+		{
+			height: 900px;
+			width: 50%;
+			margin:70px 0px;
+		}
+		.about
+		{
+			height: 250px;
+			width: 100%;
+			background: #f8f9fa;
+			margin-top: 50px;
+		}
+		.about .text
+		{
+			height: 250px;
+			width: 550px;
+			/*background: yellowgreen;*/
+			margin: auto;
+		}
+		.about .text h1
+		{
+			font-size: 42px;
+			font-family: "Poppins", sans-serif;
+			padding: 0px 25px;
+			padding-top: 60px;
+		}
+		.about .text h2
+		{
+			font-size: 42px;
+			font-family: "Poppins", sans-serif;
+			text-align: center;
+			padding-top: 5px;
+		}
+		.about .text h3
+		{
+			margin-top: 20px;
+			font-size: 17px;
+			font-family: "Poppins", sans-serif;
+			font-weight: 200;
+			line-height: 1.2;
+			color: #575757;
+		}
+		.about .text h4
+		{
+			font-size: 17px;
+			font-family: "Poppins", sans-serif;
+			font-weight: 200;
+			text-align: center;line-height: 1.2;
+			color: #575757;
+			padding-top: 10px;
+		}
+		.contenar
+		{
+			height: 750px;
+			width: 100%;
+			background: #f8f9fa;
+			margin-top: 50px;
+		}
+		.contenar .info
+		{
+			height: 350px;
+			width: 100%;
+			display: flex;
+			padding: 0px 65px;
+		}
+		.contenar .info .info1
+		{
+			height: 350px;
+			width: 33.33%;
+			/*background: mediumblue;*/
+			margin: 0px 20px;
+			padding: 50px 20px;
+		}
+		.contenar .info .info1 .infoin
+		{
+			height: 250px;
+			width: 100%;
+			/*background: whitesmoke;*/
+			padding-top: 20px;
+		}
+		.contenar .info .info1 .infoin .icon
+		{
+			height: 60px;
+			width: 60px;
+			background: #175cff;
+			border-radius: 10px;
+			margin: auto;	
+		}
+		.contenar .info .info1 .infoin .bkg
+		{
+			background: #f25767;
+		}
+		.contenar .info .info1 .infoin .bkg1
+		{
+			background: #0b163f;
+		}
+		.contenar .info .info1 .infoin .text_info
+		{
+			padding: 0 11px;
+		}
+		.contenar .info .info1 .infoin .text_info h1
+		{
+			text-align: center;
+			padding-top: 20px;
+			font-family: "Poppins", sans-serif;
+			font-size: 22px;
+		}
+		.contenar .info .info1 .infoin .text_info p
+		{
+			text-align: center;
+			font-size: 18px;
+			font-family: "Poppins", sans-serif;
+			font-weight: 100;
+			padding-top: 10px;
+			color: #575757;
+		}
+		.contenar .data
+		{
+			height: 350px;
+			width: 100%;
+			margin-top: 10px;
+			padding: 0 65px;
+			display: flex;
+		}
+		.contenar .data .box
+		{
+			height: 300px;
+			width: 50%;
+			margin: 10px;
+			margin-top: 20px;
+			border-radius: 15px;
+		}
+		.contenar .data .box .box1
+		{
+			height: 140px;
+			width: 300px;
+			padding: 10px;
+			margin-left: 40px;
+			margin-top: 40px;
+		}
+		.contenar .data .clr
+		{
+			background: #f6d8dd;
+		}
+		.contenar .data .clr1
+		{
+			background: #cbd9fb;
+		}
+		.contenar .data .box .box1 h1
+		{
+			font-size: 23px;
+			font-family: "Poppins", sans-serif;
+		}
+		.contenar .data .box .box1 p
+		{
+			font-size: 18px;
+			font-family: "Poppins", sans-serif;
+			padding-top: 10px;
+			color: #575757;
+			font-weight: 200;
+		}
+		.contenar .data .box .btn_free
+		{
+			height: 50px;
+			width: 150px;
+			margin-top: 20px;
+			margin-left: 40px;
+			border: 2px solid blue;
+			border-radius: 5px;
+			transition: all .5s;
+		}
+		.contenar .data .box .btn_free:hover
+		{
+			background: blue;
+		}
+		.contenar .data .box .btn_free h1
+		{
+			font-size: 15px;
+			font-weight: 200;
+			font-family: "Poppins", sans-serif;
+			padding-top: 14px;
+			text-decoration: none;
+			color: blue;
+		}
+		.contenar .data .box .btn_free a
+		{
+			text-align: center;
+			text-decoration: none;
+			color: blue;
+			padding: 31px;
+			transition: all .5s;
+		}
+		.contenar .data .box .btn_free a:hover
+		{
+			color: white;
+		}
+		.contenar .data .image
+		{
+			height: 200px;
+			width: 200px;
+			margin-left: 350px;
+			margin-top: -150px;
+		}
